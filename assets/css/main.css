@@ -3,31 +3,40 @@ body {
 }
 
 div.container_12 {
-background: #545454;
--webkit-box-shadow: 0 0 10px 2px black;
--webkit-border-radius: 5px;
-color: #87C92A;
-font-weight: bold;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px 2px #000;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 0 0 10px 2px #000;
+    background: #333;
+    color: #8C2;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 li {
-    display: inline-block;
-    line-height: 30px;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-li:hover, li.active {
     border-top-left-radius: 7px 7px;
     border-top-right-radius: 7px 7px;
-    background: #87C92A;
-    color:#545454;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+li:hover, li.active {
+    background: #8C2;
+    color: #333;
     cursor: pointer;
 }
+
 ul {
-    display:block;
+    display: block;
     margin: 0;
     padding: 0;
 }
+
 div.divider {
-     border-top: 1px solid #87C92A;
+    border-top: 1px solid #8C2;
 }

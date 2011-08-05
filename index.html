@@ -9,7 +9,7 @@
     <link href="assets/css/main.css" rel="stylesheet"/>
     <style>
         div {
-          /* -webkit-box-shadow: 0 0 1px 1px#888; */
+           -webkit-box-shadow: 0 0 1px 1px#888;
         }
     </style>
     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.min.js"></script>
@@ -18,17 +18,18 @@
 </head>
 <body>
     <div class="container_12">
-        <div class="grid_3">
+        <div class="grid_3" id="logo">
             <img src="assets/png/text_logo.png" width="220" height="125">
         </div>
         <div class="grid_9">
-            <div>
+            <div class="grid_9 alpha omega">
                 <img src="assets/png/120/beer.png" width="91" height="120">
                 <img src="assets/png/120/cards.png" width="141" height="120">
                 <img src="assets/png/120/movies.png" width="126" height="120">
                 <img src="assets/png/120/games.png" width="116" height="120">
                 <img src="assets/png/120/video_games.png" width="66" height="120">
             </div>
+            <div class="clear"></div>
             <nav>
                 <ul>
                     <li class="active">Home</li>
@@ -46,10 +47,121 @@
             col1
         </div>
         <div class="grid_6">
-            col2
+            <div class="activity_event">
+                <!--left of avtivity for event-->
+                <div class="grid_2 alpha">
+                    <div class="grid_2 alpha omega">
+                        _ICON_
+                    </div>
+                    <div class="clear"></div>
+                    <div class="grid_2 alpha omega">
+                        _RSVP_
+                    </div>
+                    <div class="clear"></div>
+                    <div class="grid_1 alpha">
+                        _attending_
+                    </div>
+                    <div class="grid_1 omega">
+                        _spotsleft_
+                    </div>
+                    <div class="clear"></div>
+                    <div class="grid_2 alpha omega">
+                        _cost_
+                    </div>
+                </div>
+                <!--right of activity for event-->
+                <div class="grid_4 omega">
+                    <div class="grid_4 alpha omega">
+                        _Title_
+                    </div>
+                    <div class="clear"></div>
+                    <div class="grid_4 alpha omega">
+                        _timedate_ and _durration_
+                    </div>
+                    <div class="clear"></div>
+                    <div class="grid_4 alpha omega">
+                        _location_
+                    </div>
+                    <div class="clear"></div>
+                    <div class="grid_4 alpha omega">
+                        <!--photos-->
+                        _photos_ of first 6
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="grid_6 alpha omega">
+                    <div class="comment">
+                        <div class="grid_1 alpha">
+                            _usericon_
+                        </div>
+                        <div class="grid_5 omega">
+                            _sample comment_
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="comment">
+                        <div class="grid_1 alpha">
+                            _usericon_
+                        </div>
+                        <div class="grid_5 omega">
+                            _sample comment_
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="comment">
+                        <div class="grid_1 alpha">
+                            _usericon_
+                        </div>
+                        <div class="grid_5 omega">
+                            _sample comment_
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="grid_6 alpha omega divider"></div>
+                    <div class="comment editor">
+                        <div class="grid_1 alpha">
+                            _usericon_
+                        </div>
+                        <div class="grid_5 omega">
+                            <input type="text"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="grid_3">
-            col3
+            <div>
+                Events
+            </div>
+            <div class="event">
+                <div class="grid_1 alpha">
+                    _RSVP_
+                </div>
+                <div class="grid_2 omega">
+                    _Title_
+                </div>
+                <div class="clear"></div>
+                <div class="grid_1 alpha">
+                    _ICON_
+                </div>
+                <div class="grid_2 omega">
+                    <div class="grid_1 alpha">
+                        _attending_
+                    </div>
+                    <div class="grid_1 omega">
+                        _spotsleft_
+                    </div>
+                    <div class="clear"></div>
+                    <div class="grid_2 alpha omega">
+                        _location_
+                    </div>
+                    <div class="clear"></div>
+                    <div class="grid_2 alpha omega">
+                        _datetime_
+                    </div>
+                </div>
+            </div>
         </div>
         <div class=clear></div>
     </div>
